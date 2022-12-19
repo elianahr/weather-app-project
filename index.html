@@ -114,15 +114,18 @@
         cursor: pointer;
       }
 
+      #git-link {
+        font-size: 12px;
+        text-align: center;
+      }
+
       button
     </style>
   </head>
   <body>
     <div class="container">
       <div class="row">
-        <button class="col-3" id="current">
-          Current Location
-        </button>
+        <button class="col-3" id="current">Current Location</button>
         <form class="col-6" id="search">
           <input
             type="text"
@@ -197,6 +200,12 @@
           </div>
         </div>
       </div>
+      <p id="git-link">
+        <a href="https://github.com/elianahr/weather-app-project" target="blank"
+          >Open-source code</a
+        >
+        by Eliana Hristova
+      </p>
     </div>
     <script src="index.js"></script>
   </body>
